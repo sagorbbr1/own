@@ -1,0 +1,139 @@
+body {
+    background-color: #bedcfa;
+}
+/* Header start here */
+.container-fluid {
+    padding: 3% 10%;
+}
+#header {
+    background-image: linear-gradient(rgba(89, 175, 245, 0.7),rgba(89, 175, 245, 0.7)), url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.tittle {
+    font-size: 2rem;
+    color: rgb(7, 53, 180);
+    margin-bottom: 28px;
+}
+.hr-style {
+    border: 6px dotted #2b0b0b;
+    border-bottom: none;
+    width: 60px;
+    margin: 0 auto 60px auto;
+}
+.logo-img {
+    width: 150px;
+}
+ul {
+    margin: 0 25px 0 auto;
+}
+
+ul li {
+    background-color: #1862ac48;
+    margin-right: 3px;
+    padding: 4px 8px;
+    transition: 0.4s;
+}
+ul li:hover {
+    background-color: #448cd348;
+
+}
+ul li a{
+    color: #fff  !important;
+}
+h1 {
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    
+} 
+.designer-p {
+    font-family: 'Noto Serif SC', serif;
+    margin-left: 315px;
+    color: #fff;
+}
+/* Header end here */
+
+
+
+/* My photo section  */
+
+#my-photo-section {
+    background-color: #8fc5f7;
+    padding: 5% 10%;
+    text-align: center;
+    color: #fff;
+}
+.my-photo {
+    width: 70%;
+    padding: 3%;
+    transition: .4s;
+}
+.my-photo:hover {
+    box-shadow: 2px 2px 3px rgb(68, 64, 64), -2px -2px 3px rgb(68, 64, 64);
+    transform: scale(1.01);
+}
+h2 {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 1.3rem;
+    padding: 2px;
+}
+  /* Institution  */
+
+  #my-institution {
+      background-color: #80afdd;
+      padding: 3% 10%;
+      text-align: center;
+      color: #fff;
+  }
+  .std {
+      padding: 4%;
+  }
+  .std p {
+      font-style: italic;
+  }
+  h3 {
+    font-family: 'Noto Serif SC', serif; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .icon {
+    color: rgb(69, 0, 230);
+    border: 3px solid rgb(13, 177, 206);
+    border-radius: 100px;
+    padding: 13px;
+    margin-bottom: 7px;
+  }
+
+  /* footer */
+
+  #footer {
+      background-color: #3ca1ff;
+      color: #fff;
+      padding: 2% 10%;
+      text-align: center;
+      font-family: 'Noto Serif SC', serif;
+  }
+  .contact ul li {
+      background-color: #21d4e0;
+      border-radius: 50%;
+      margin-right: 10px;
+      transition: ;
+  }
+  .contact ul li:last-child {
+      margin-right: 0;
+  }
+  .contact ul li:hover {
+    background-color: #058791;
+  .footer-icon {
+    color: #2243fc;
+  }
+
+/* 
+
+font-family: 'Noto Serif SC', serif;
+
+ */
